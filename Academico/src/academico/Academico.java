@@ -16,6 +16,20 @@ public class Academico {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Alunos a1 = new Alunos();
+        a1.setMatricula(20221678);
+        a1.setNome("Pedro Nonato");
+        a1.setNomeResponsavel("Maria Rita");
+        System.out.println("Matricula:" + a1.getMatricula());
+        System.out.println("Nome:" + a1.getNome());
+        System.out.println("Responsavel:" + a1.getNomeResponsavel());
+        Professores p1 = new Professores();
+        p1.setMatricula(12222);
+        p1.setNome("renner");
+        p1.setTitulacao("Especialista");
+        
+        
     }
     
 }
